@@ -1,0 +1,76 @@
+//使用可能なブロック
+function mytheme_block() {
+
+	return array(
+		'core/paragraph', //段落
+		'core/image', //画像
+		'core/heading', //見出し
+		'core/gallery', //ギャラリー
+		'core/list', //リスト
+		'core/quote', //引用
+		'core/shortcode', //ショートコード
+		'core/archives', //アーカイブ
+		'core/audio', //音声
+		'core/button', //ボタン
+		'core/calendar', //カレンダー
+		'core/categories', //カテゴリー
+		'core/code', //ソースコード
+		'core/columns', //カラム
+		'core/cover', //カバー
+		'core/embed', //埋め込み
+		'core-embed/twitter', //Twitter
+		'core-embed/youtube', //YouTube
+		'core-embed/facebook', //Facebook
+		'core-embed/instagram', //Instagram
+		'core-embed/wordpress', //WordPress
+		'core-embed/soundcloud', //SoundCloud
+		'core-embed/spotify', //Spotify
+		'core-embed/flickr', //Flickr
+		'core-embed/vimeo', //Vimeo
+		'core-embed/animoto', //Animoto
+		'core-embed/cloudup', //Cloudup
+		'core-embed/collegehumor', //CollegeHumor
+		'core-embed/crowdsignal', //Crowdsignal
+		'core-embed/dailymotion', //Dailymotion
+		'core-embed/hulu', //Hulu
+		'core-embed/imgur', //Imgur
+		'core-embed/issuu', //Issuu
+		'core-embed/kickstarter', //Kickstarter
+		'core-embed/meetup-com', //Meetup.com
+		'core-embed/mixcloud', //Mixcloud
+		'core-embed/polldaddy', //Polldaddy
+		'core-embed/reddit', //Reddit
+		'core-embed/reverbnation', //ReverbNation
+		'core-embed/screencast', //Screencast
+		'core-embed/scribd', //Scribd
+		'core-embed/slideshare', //Slideshare
+		'core-embed/smugmug', //SmugMug
+		'core-embed/speaker', //Speaker
+		'core-embed/speaker-deck', //Speaker Deck
+		'core-embed/ted', //TED
+		'core-embed/tumblr', //Tumblr
+		'core-embed/videopress', //VideoPress
+		'core-embed/wordpress-tv', //WordPress.tv
+		'core-embed/amazon-kindle', //Amazon Kindle
+		'core/file', //ファイル
+		'core/freeform', //クラシック
+		'core/html', //カスタム HTML
+		'core/media-text', //メディアと文章
+		'core/latest-comments', //最新のコメント
+		'core/latest-posts', //最新の記事
+		'core/more', //続きを読む
+		'core/nextpage', //改ページ
+		'core/preformatted', //整形済み
+		'core/pullquote', //プルクオート
+		'core/rss', //RSS
+		'core/search', //検索
+		'core/separator', //区切り
+		'core/block', //再利用ブロック
+		'core/spacer', //スペーサー
+		'core/table', //テーブル
+		'core/tag-cloud', //タグクラウド
+		'core/verse', //詩
+		'core/video', //動画
+	);
+}
+add_filter( 'allowed_block_types', 'mytheme_block' );

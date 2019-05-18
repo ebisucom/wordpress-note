@@ -1,0 +1,31 @@
+
+	// 色設定
+	add_theme_support( 'editor-color-palette', array(
+		array(
+			'name'  => '青色',
+			'slug'  => 'blue',
+			'color' => '#1b5e92',
+		),
+		array(
+			'name'  => '黄色',
+			'slug'  => 'yellow',
+			'color' => '#f1f40e',
+		),
+		array(
+			'name'  => 'グレー',
+			'slug'  => 'gray',
+			'color' => '#dddddd',
+		),
+	) );
+
+
+
+
+/* 色設定 */
+.has-blue-background-color	{background-color: #1b5e92;}
+.has-yellow-background-color	{background-color: #f1f40e;}
+.has-gray-background-color 	{background-color: #dddddd;}
+.has-blue-color 	{color: #1b5e92;}
+.has-yellow-color 	{color: #f1f40e;}
+.has-gray-color 	{color: #dddddd;}
+

@@ -1,0 +1,23 @@
+// 使用可能なブロック
+function mytheme_block( $allowed_block_types, $post ) {
+
+	// 投稿
+	if ( $post->post_type === 'post' ) {
+		return array(
+			'core/paragraph', //段落
+			'core/image', //画像
+		);
+	}
+
+	// 固定ページ
+	if ( $post->post_type === 'page' ) {
+		return array(
+			'core/paragraph', //段落
+		);
+	}
+
+	// 上記以外
+	return $allowed_block_types;
+
+}
+add_filter( 'allowed_block_types', 'mytheme_block', 10, 2 );

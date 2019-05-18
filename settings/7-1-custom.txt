@@ -1,0 +1,7 @@
+
+	// カスタムカラーをオフ
+	add_theme_support( 'disable-custom-colors' );
+
+	// カスタムフォントサイズをオフ
+	add_theme_support( 'disable-custom-font-sizes' );
+

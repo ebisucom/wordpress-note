@@ -1,0 +1,14 @@
+// グーテンベルク由来のCSSをフロントとエディタの両方から削除
+function remove_both_css() {
+
+	// style.min.cssの設定を削除
+	wp_deregister_style( 'wp-block-library' );
+	wp_register_style( 'wp-block-library', '' );
+
+	// theme.min.cssの設定を削除
+	wp_deregister_style( 'wp-block-library-theme' );
+	wp_register_style( 'wp-block-library-theme', '' );
+
+}
+add_action( 'enqueue_block_assets', 'remove_both_css' );
+

@@ -1,0 +1,32 @@
+
+// ブロックテンプレート
+function mytheme_temp() {
+
+	// 投稿
+	$obj = get_post_type_object( 'post' );
+	$obj->template = array(
+
+		array(
+			'core/heading', 
+			array(
+				'level' => '2', 
+				'content' => '基本情報',
+			)
+		),
+
+		array(
+			'core/paragraph', 
+			array(
+				'placeholder' => 'ここに基本情報を入力 ここに基本情報を入力 ここに基本情報を入力 ここに基本情報を入力 ここに基本情報を入力 ここに基本情報を入力 ここに基本情報を入力',
+			)
+		),
+
+		array(
+			'core/image'
+		),
+
+	);
+
+}
+add_action( 'init', 'mytheme_temp' );
+

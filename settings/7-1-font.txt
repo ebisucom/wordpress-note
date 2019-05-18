@@ -1,0 +1,28 @@
+
+	// 文字サイズ設定
+	add_theme_support( 'editor-font-sizes', array(
+		array(
+			'name' => '小',
+			'size' => 12.8,
+			'slug' => 'small',
+		),
+		array(
+			'name' => '標準',
+			'size' => 16,
+			'slug' => 'normal',
+		),
+		array(
+			'name' => '大',
+			'size' => 20,
+			'slug' => 'large',
+		),
+	) );
+
+
+
+
+/* 文字サイズ設定 */
+.has-small-font-size 	{font-size: 12.8px;}
+.has-normal-font-size 	{font-size: 16px;}
+.has-large-font-size 	{font-size: 20px;}
+
