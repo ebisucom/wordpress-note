@@ -2,6 +2,7 @@
 
 電子書籍 [『グーテンベルク時代のWordPressノート テーマの作り方（入門編）』［エビスコム 編著］](https://ep.ebisu.com/wordpress-note/) のダウンロードデータです。
 
+![グーテンベルク時代のWordPressノート テーマの作り方（入門編）](https://repository-images.githubusercontent.com/186002620/faab2c00-7a13-11e9-80c0-befa1ff1230d)
 
 ## ■「themes」フォルダ
 
