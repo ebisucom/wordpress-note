@@ -1,5 +1,5 @@
 
-[続編の『グーテンベルク時代のWordPressノート テーマの作り方 2（ランディングページ＆ワンカラムサイト編）』のダウンロード＆サポートはこちらです。](https://github.com/ebisucom/wordpress-note-lp)
+> [続編の『グーテンベルク時代のWordPressノート テーマの作り方 2（ランディングページ＆ワンカラムサイト編）』のダウンロード＆サポートはこちらです。](https://github.com/ebisucom/wordpress-note-lp)
 
 
 
