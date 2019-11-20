@@ -53,6 +53,7 @@ function mytheme_block() {
 		'core-embed/wordpress-tv', //WordPress.tv
 		'core-embed/amazon-kindle', //Amazon Kindle
 		'core/file', //ファイル
+		'core/group', //グループ
 		'core/freeform', //クラシック
 		'core/html', //カスタム HTML
 		'core/media-text', //メディアと文章
