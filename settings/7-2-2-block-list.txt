@@ -11,6 +11,7 @@ function mytheme_block() {
 		'core/shortcode', //ショートコード
 		'core/archives', //アーカイブ
 		'core/audio', //音声
+		'core/buttons', //ボタン
 		'core/button', //ボタン
 		'core/calendar', //カレンダー
 		'core/categories', //カテゴリー
@@ -29,7 +30,6 @@ function mytheme_block() {
 		'core-embed/vimeo', //Vimeo
 		'core-embed/animoto', //Animoto
 		'core-embed/cloudup', //Cloudup
-		'core-embed/collegehumor', //CollegeHumor
 		'core-embed/crowdsignal', //Crowdsignal
 		'core-embed/dailymotion', //Dailymotion
 		'core-embed/hulu', //Hulu
@@ -47,6 +47,7 @@ function mytheme_block() {
 		'core-embed/smugmug', //SmugMug
 		'core-embed/speaker', //Speaker
 		'core-embed/speaker-deck', //Speaker Deck
+		'core-embed/tiktok', //TikTok
 		'core-embed/ted', //TED
 		'core-embed/tumblr', //Tumblr
 		'core-embed/videopress', //VideoPress
@@ -67,6 +68,7 @@ function mytheme_block() {
 		'core/search', //検索
 		'core/separator', //区切り
 		'core/block', //再利用ブロック
+		'core/social-links', //ソーシャルアイコン
 		'core/spacer', //スペーサー
 		'core/table', //テーブル
 		'core/tag-cloud', //タグクラウド
