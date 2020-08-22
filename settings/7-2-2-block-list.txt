@@ -32,7 +32,6 @@ function mytheme_block() {
 		'core-embed/cloudup', //Cloudup
 		'core-embed/crowdsignal', //Crowdsignal
 		'core-embed/dailymotion', //Dailymotion
-		'core-embed/hulu', //Hulu
 		'core-embed/imgur', //Imgur
 		'core-embed/issuu', //Issuu
 		'core-embed/kickstarter', //Kickstarter
