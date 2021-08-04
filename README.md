@@ -1,11 +1,28 @@
 # 『グーテンベルク時代のWordPressノート テーマの作り方（入門編）』 ダウンロードデータ
 
-電子書籍 [『グーテンベルク時代のWordPressノート テーマの作り方（入門編）』［エビスコム 編著］](https://ep.ebisu.com/wordpress-note/) のダウンロードデータです。
-
-Amazon Kindle（プリントレプリカ形式）のテキストのコピーについては [エビスコムの著者NOTE](https://ebisu.com/note/amazon-kindle-text-copy/) を参照してください。
+![グーテンベルク時代のWordPressノート テーマの作り方（入門編）](https://repository-images.githubusercontent.com/186002620/ab909f23-2b89-435b-88e9-38c067fc0c8b)
 
 
-![グーテンベルク時代のWordPressノート テーマの作り方（入門編）](https://ep.ebisu.com/social/wordpress-note-social55.jpg)
+* [書籍情報](https://ebisu.com/wplesson/)
+* [Amazon Kindle 書籍ページ](https://amzn.to/2JW7l2r)
+
+## ■収録内容について
+
+---
+
+**まずは「[サポートPDF（support.pdf）](https://github.com/ebisucom/wordpress-note/blob/master/support.pdf)」に目を通してご利用ください。**
+
+- サポートPDFを追加しました。**WordPress 5.8** への対応方法を追加しています。［2021年8月5日］
+
+- 最新の情報は著者NOTE（https://ebisu.com/notecat/wordpress/ ） や Twitter ( https://twitter.com/ebisucom ) でも出していますので、参考にしてください。
+
+---
+
+本書で作成するテーマや、使用する画像データを収録しています。
+サンプルの作成方法などについては、本書を参照してください。
+
+※Amazon Kindle（プリントレプリカ形式）のテキストのコピーについては [エビスコムの著者NOTE](https://ebisu.com/note/amazon-kindle-text-copy/) を参照してください。
+
 
 ## ■「themes」フォルダ
 

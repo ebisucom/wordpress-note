@@ -3,6 +3,9 @@
 // 基本設定
 function mytheme_setup() {
 
+	// ブロックベースのウィジェットエディタを無効化
+	remove_theme_support( 'widgets-block-editor' );
+
 	// ページのタイトルを出力
 	add_theme_support( 'title-tag' );
 

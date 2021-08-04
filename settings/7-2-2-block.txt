@@ -4,7 +4,7 @@ function mytheme_block() {
 	return array(
 		'core/paragraph', // 段落
 		'core/image', //画像
-		'core-embed/youtube', //YouTube
+		'core/embed', // 埋め込み
 	);
 }
 add_filter( 'allowed_block_types', 'mytheme_block' );
