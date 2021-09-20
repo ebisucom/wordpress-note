@@ -12,7 +12,7 @@
 
 **まずは「[サポートPDF（support.pdf）](https://github.com/ebisucom/wordpress-note/blob/master/support.pdf)」に目を通してご利用ください。**
 
-- サポートPDFを追加しました。**WordPress 5.8** への対応方法を追加しています。［2021年8月5日］
+- サポートPDFを更新しました。**WordPress 5.8 および 5.8.1** への対応方法を追加しています。［2021年9月21日］
 
 - 最新の情報は著者NOTE（https://ebisu.com/notecat/wordpress/ ） や Twitter ( https://twitter.com/ebisucom ) でも出していますので、参考にしてください。
 

@@ -6,5 +6,6 @@ function mytheme_block() {
 		'core/image', //画像
 		'core/embed', // 埋め込み
 	);
+	
 }
-add_filter( 'allowed_block_types', 'mytheme_block' );
+add_filter( 'allowed_block_types_all', 'mytheme_block' );
